@@ -6,6 +6,7 @@ import Food from '../Component/Food'
 import Hollywood from '../Component/Hollywood'
 import Fitness from '../Component/Fitness'
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
+import StoreCompo from '../Store/StoreCompo'
 
 
 export default function RouteCompo() {
@@ -20,7 +21,7 @@ export default function RouteCompo() {
         <Link to='Hollywood'>Hollywood</Link>
         <Link to='/Fitness'>Fitness</Link>
         <hr></hr>
-        
+        <StoreCompo>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/Bollywood' element={<Bollywood />} />
@@ -29,7 +30,7 @@ export default function RouteCompo() {
             <Route path='/Hollywood' element={<Hollywood />} />
             <Route path='/Fitness' element={<Fitness />} />
           </Routes>
-      
+        </StoreCompo>
       </BrowserRouter>
     </div>
   )

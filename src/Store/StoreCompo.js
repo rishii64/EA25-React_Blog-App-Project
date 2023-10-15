@@ -110,10 +110,8 @@ export default function StoreCompo(props){
     ])
     return(
         <>
-            <bucket.Provider>
-                <bucket.Provider value={{data, setData}} />
-                {/* {props.children} */}
-                <Fitness/>
+            <bucket.Provider  value={{data, setData}}>
+                {props.children}
             </bucket.Provider>
         </>
     )
