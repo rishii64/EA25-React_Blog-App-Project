@@ -1,10 +1,15 @@
 import './App.css';
+import StoreCompo from './Store/StoreCompo';
 import RouteCompo from './Route/RouteCompo';
 
 function App() {
   return (
     <div className="App">
-      <RouteCompo />
+      {/* <StoreCompo>
+        <RouteCompo />
+      </StoreCompo> */}
+      <StoreCompo />
+
     </div>
   );
 }
