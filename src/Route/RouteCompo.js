@@ -5,14 +5,14 @@ import Technology from '../Component/Technology'
 import Food from '../Component/Food'
 import Hollywood from '../Component/Hollywood'
 import Fitness from '../Component/Fitness'
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
+import { BrowserRouter,Link, Route, Routes } from "react-router-dom"
 import StoreCompo from '../Store/StoreCompo'
-
+import ReadCompo from '../Component/ReadCompo'
 
 export default function RouteCompo() {
   return (
-    <div>
-      <h1 id='head'><p>The</p>  Siren</h1>
+    <div className='pages'>
+      <h1 className='head'><p id='head'>The</p>  Siren</h1>
       <BrowserRouter>
         <Link to='/'>Home</Link>
         <Link to='/Bollywood'>Bollywood</Link>
@@ -29,6 +29,7 @@ export default function RouteCompo() {
             <Route path='/Food' element={<Food />} />
             <Route path='/Hollywood' element={<Hollywood />} />
             <Route path='/Fitness' element={<Fitness />} />
+            <Route path="/Blog/:id" element={<ReadCompo />} />
           </Routes>
         </StoreCompo>
       </BrowserRouter>
