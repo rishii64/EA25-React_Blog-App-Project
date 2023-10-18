@@ -13,7 +13,7 @@ export default function ReadCompo(){
     console.log(filterData);
     return(
         <div className="readData">
-            <img src={filterData[0].img} />
+            <img src={filterData[0].img} alt='not found' />
             <h1>{filterData[0].title}</h1>
             <p>{filterData[0].desc}</p>
             {filterData[0].id}
