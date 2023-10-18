@@ -1,10 +1,8 @@
 import { createContext, useState } from "react";
-// import Fitness from "../Component/Fitness";
 
 export const bucket = createContext();
-
 export default function StoreCompo(props) {
-    // console.log(props);
+
     const [data, setData] = useState([
 
         {

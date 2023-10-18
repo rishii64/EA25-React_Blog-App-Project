@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { bucket } from '../Store/StoreCompo';
+import { Link } from 'react-router-dom';
 
 export default function Fitness() {
   const [data] = useContext(bucket)
@@ -9,7 +10,7 @@ export default function Fitness() {
           <div  key={index} className='left'>
               <img src={item.img} alt='not found' />
               <div className='info'>
-                <h3>{item.title}</h3>
+                <h3><Link to={`/Blog/${item.id}`}>{item.title}</Link></h3>
                 <p className='des'>{item.desc.slice(0,200)}....</p>
                 <p className='ref'>Fitness : 17-10-23</p>
               </div>
@@ -23,7 +24,7 @@ export default function Fitness() {
           <div key={index} className='topPost'>
               <img id='topPost' src={item.img} alt='not found' />
               <div className='info'>
-                <h3>{item.title}</h3>
+                <h3><Link to={`/Blog/${item.id}`}>{item.title}</Link></h3>
                 <p className='ref'>Fitness : 17-10-23</p>
               </div>
           </div>
@@ -36,7 +37,7 @@ export default function Fitness() {
           <div  key={index} className='right'>
                 <img id='rightImg' src={item.img} alt='not found' />
                 <div className='info'>
-                  <h3 className='r8Head'>{item.title}</h3>
+                  <h3 className='r8Head'><Link to={`/Blog/${item.id}`}>{item.title}</Link></h3>
                   <p className='ref'>Fitness : 17-10-23</p>
                 </div>
           </div>
