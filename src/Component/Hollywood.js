@@ -24,7 +24,7 @@ export default function Hollywood() {
           <div key={index} className='topPost'>
               <img id='topPost' src={item.img} alt='not found' />
               <div className='info'>
-                <h3><Link to={`/Blog/${item.id}`}>{item.title}</Link></h3>
+                <h3><Link to={`/Blog/${item.id}`}>{item.title.slice(0,60)}...</Link></h3>
                 <p className='ref'>Hollywood : 17-10-23</p>
               </div>
           </div>

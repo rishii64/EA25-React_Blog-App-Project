@@ -7,6 +7,7 @@ import Hollywood from '../Component/Hollywood'
 import Fitness from '../Component/Fitness'
 import { BrowserRouter,Link, Route, Routes } from "react-router-dom"
 import StoreCompo from '../Store/StoreCompo'
+import Footer from './Footer'
 import ReadCompo from '../Component/ReadCompo'
 
 export default function RouteCompo() {
@@ -32,6 +33,7 @@ export default function RouteCompo() {
             <Route path="/Blog/:id" element={<ReadCompo />} />
           </Routes>
         </StoreCompo>
+        <Footer />
       </BrowserRouter>
     </div>
   )

@@ -455,6 +455,116 @@ export default function StoreCompo(props) {
             desc : "Michelle Williams has been tapped to narrate the audio version of Britney Spears‘ tell-all memoir The Woman in Me.Spears will read the book’s introduction before passing it over to The Fabelmans star. “This book has been a labor of love and all the emotions that come with it,” the Baby One More Time singer said in a statement. “Reliving everything has been exciting, heart-wrenching, and emotional, to say the least. For those reasons, I will only be reading a small part of my audiobook. I am so grateful to the amazing Michelle Williams for reading the rest of it.”The five-time Oscar-nominated actress said, “I stand with Britney.” This is the first audiobook Williams, who has starred in Manchester by the Sea, My Week with Marilyn, Blue Valentine and Fosse/Verdon, has narrated. The Woman in Me, which was written with “candor and humor” is described as a “brave and astonishingly moving story about freedom, fame, motherhood, survival, faith and hope.” It also “illuminates the enduring power of music and love — and the importance of a woman telling her own story, on her own terms, at last.” In the book, Spears discusses her 13-year conservatorship and how the case impacted her personally and publicly. In November 2021, a Los Angeles County judge ruled to terminate the conservatorship after the singer testified in court months prior that it was abusive and that it was her “wish and my dream for this to end.” The memoir, which was previously reported to be worth as much as $15 million, was acquired by Gallery Books following a bidding war involving several publishers. The Woman in Me will hit bookshelves on Oct. 24.",
             img : "https://www.hollywoodreporter.com/wp-content/uploads/2023/10/Michelle-Williams-and-Britney-Spears-Split-Getty-H-2023.jpg?w=450&h=253&crop=1",
         
+        },
+
+        {
+            id : 45,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "Exoskeleton allows wheelchair user to walk",
+            desc : "People who use wheelchairs may one day be able to walk with the help of this Atalante X exoskeleton.Made by French firm Wandercraft, it supports people in a standing position and is controlled with a hand-held device. It can currently only be used inside hospitals, but the company plans to make future versions that could be used anywhere.Raphael uses a wheelchair because of a spinal cord injury, and he has rehabilitation sessions in the exoskeleton to improve his core muscle strength. Some clinics use the exoskeleton to help people relearn to walk after a stroke, where it aids them in regaining strength and balance.Last week, a new research programme began to investigate the exoskeleton’s effectiveness at helping people with spinal cord injuries and motor neuron disease.",
+            img : "https://images.newscientist.com/wp-content/uploads/2023/10/19103709/wandercraft-video-page.jpg?width=920",
+        
+        },
+        {
+            id : 46,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "The 2023 Nobel prizes honour work that touched millions of lives",
+            desc : "he committees which award the Nobel prizes are hard to second-guess. Last year, for instance, the prize in physiology or medicine went to Svante Paabo, a pioneer of the study of fossil dna, which has shed much light on human evolution.A worthy winner. But some thought the choice an odd one in light of the covid-19 pandemic that had ravaged the world. This year the Karolinska Institute in Stockholm, which awards the prize, made amends. It awarded it to Katalin Karikó and Drew Weissman, who, working at the University of Pennsylvania, helped pioneer the mrna vaccines that were deployed, in record time, against the coronavirus. It was they who worked out how to stop the molecule at the heart of such vaccines provoking a reaction which would otherwise have made them unusable.",
+            img : "https://www.economist.com/cdn-cgi/image/width=960,quality=80,format=auto/media-assets/image/20231007_STD001.jpg",
+        
+        },
+        {
+            id : 47,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "A flying car that anyone can use will soon go on sale",
+            desc : "Electrically powered vertical-take-off-and-landing (evtol) aircraft—flying cars, to the layman—are an idea whose time has not quite yet come, but is fast approaching. Many firms are jostling with each other, offering designs that range from scaled-up multirotor drones, via things which resemble rigid spiders’ webs, to fixed-wing/helicopter hybrids. None of these, however, will be Jetson-like family saloons with dad (or even mum) at the controls. Those flying them will require a pilot’s licence. Most will probably be used initially as sky-going taxis.One company has, by contrast, stuck to its guns and carried through its original project to create something which people can purchase and pilot themselves. Helix is a single-seat vehicle, so “flying motorbike” might be a more accurate appellation. It has, however, been carefully crafted by its maker, Pivotal, based in Silicon Valley, to be within America’s rules for microlight aircraft. That means anyone, pilot’s licence or not, can fly it over non-built-up areas. As a result, from next year those with $190,000 stuffed down the back of the sofa will be able to order one for personal use—though they will not be able to take delivery until June.",
+            img : "https://www.economist.com/cdn-cgi/image/width=960,quality=80,format=auto/content-assets/images/20231014_STD003.jpg",
+        
+        },
+        {
+            id : 48,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "Google claims data-scraping lawsuit threatens generative AI progress",
+            desc : "Google has asked a California federal court to dismiss a class action lawsuit that claims the company’s scraping of data to train generative AI systems infringes millions of people’s privacy and property rights.Google’s argument is that using available public data is essential to training systems like its own Bard, adding that the lawsuit would ‘take a sledgehammer not just to Google’s services but to the very idea of generative AI.’ In July, eight individuals filed a case in San Francisco accusing Google of illegally using content from social media and Google platforms to train AI, including photos on dating websites, Spotify playlists, and TikTok videos.In a statement on Tuesday, Google general counsel Halimah DeLaine Prado argued that the lawsuit was ‘baseless’ and that US law ‘supports using public information to create beneficial uses.’ Google added that ‘using publicly available information to learn is not stealing’ and that it cannot be considered a copyright infringement, invasion of privacy, negligence, or unfair competition.Google claims that the complaint fails to address any core issues, particularly how the company could have abused the plaintiffs by using their content. This case is part of a wider string of legal cases facing tech companies over generative AI, including several pending US lawsuits.Since these models use massive amounts of data from the internet for training, most cases revolve around the misuse of content without approval, including personal information, books, and visual art.Mounting legal issues could hinder the development and adoption of the technology, not just for Google but across the industry. The outcomes of these early generative AI cases are still unclear, but preliminary indications suggest that courts are approaching generative AI claims with a healthy level of scepticism.",
+            img : "https://diplo-media.s3.eu-central-1.amazonaws.com/2023/09/users-united-by-one-technological-network-with-social-network-google-3d-1024x539.jpg",
+        
+        },
+        {
+            id : 49,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "Meta commissions a sevenfold takedown of content about the Israel-Hamas conflict",
+            desc : "After the October 7 attacks by Hamas on Israel, Meta has removed over 700,000 pieces of content deemed to violate established policies. According to the company, posts written on Facebook and Instagram by Hamas, labeled a terrorist organisation by several Western governments, are considered in contravention of its Dangerous Organisations and Individuals Policy. Yet, despite the group being banned from posting on these platforms, Meta continues to remove hundreds of thousands of posts in praise or support of Hamas. Three days following the October 7 attack, these posts numbered close to 800,000, seven times the removal rate just two months prior. Meta has also ramped up its defenses by establishing:A special operations centre staffed with linguists versed in Arabic and Hebrew.Stronger steps to prevent the posting of violent content in the first place.An expansion of the Violence and Incitement Policy to prioritise the safety of hostages.Restricted access to specific hashtags associated with violent contentBlurring of the face of victims posted on the platforms. Other platforms like X took similar actions in the wake of a call for greater platform moderation from organisations such as the European Union, the Arab Centre for the Advancement of Social Media, and the Anti-Defamation League. Conversely, the Association for Progressive Communications decried the heavy-handed approach to censoring Palestinians’ speech.  Why does it matter?Meta’s swift and decisive action amidst this crisis is well noted, given the pummelling the platform operator faced for its role in the promotion of disinformation, misinformation, and hate speech during other offline conflicts. ",
+            img : "https://diplo-media.s3.eu-central-1.amazonaws.com/2023/08/businesswoman-with-metaverse-word-cyberspace-1024x683.jpg",
+        
+        },
+        {
+            id : 50,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "Mixed reviews on Japan’s Digital ID system as failures prevail",
+            desc : "The My Number digital ID system, an IC chip that was launched in 2016 to ensure that everyone, from babies to the elderly, has access to the benefits that come with digital transformation in Japan, continues to face several problems. During the initial phases of the digital ID system, issues include low uptake due to data privacy fears, service access limitations, and a lengthy wait time to replace the access PIN or the card itself. In recent times, users have complained of an inability to access the digital certificates linked to the digital IDs, failings with renewals, the wrong linking of IDs to bank accounts and administrative records, and a lack of inter-agency communication. As the government works feverishly to solve the ongoing setbacks with the My Number ID system, public opinion point to the need for greater and deeper sensitisation on the project as being at the heart of the problems. Why does it matter? The issues with the My Number ID system could not have surfaced worse for the Kono government as the time nears its June 2024 target to eliminate analogue regulations, an estimated 3.6 trillion yen undertaking. ",
+            img : "https://diplo-media.s3.eu-central-1.amazonaws.com/2023/07/z8jc-xntrgg-1-1024x683.jpg",
+        
+        },
+        {
+            id : 51,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "Australian banks turn to private digital IDs as the national scheme faces challenges",
+            desc : "Australia is amid an ongoing debate over new laws that could finally bring the country’s national digital identity scheme to fruition. As progress on the national digital ID plan remains slow, financial institutions seek alternative solutions and turn to private identity services. The Commonwealth Bank of Australia (CBA), one of the country’s largest banks, has recently partnered with ConnectID. This digital identity service enables users to prove their identity online to businesses and merchants. This development follows the National Bank of Australia (NAB), which previously allowed customers to access ConnectID. CBA plans to utilize ConnectID to allow its customers to verify their identity using face biometrics through the CBA app.ConnectID is a product of collaboration between AP+ (Australian Payments Plus), Eftpos (a digital identity solutions company), BPAY (a payments platform), and the New Payments Platform (NPP), a subsidiary of AP+. It is designed as an alternative to government digital ID schemes, primarily aimed at consumers. The service features data minimization as one of its essential aspects. Why does it matter? ConnectID is the first non-government operator accredited by the Australian government under the Trusted Digital Identity Framework (TDIF) to provide digital identity exchange services in the country. The federal government has actively encouraged private sector participation in the TDIF since 2018. However, the latest move suggests that banks may be growing impatient with government schemes. Experts in the field warn against the rushed passage of the Identity Verification Services Bill 2023, which aims to regulate identity verification services and establish the foundation for the country’s upcoming digital identity ecosystem, alongside other forthcoming laws, such as the draft Digital ID Bill.",
+            img : "https://diplo-media.s3.eu-central-1.amazonaws.com/2023/08/finger-scan-icon-appeared-while-man-s-finger-touched-futuristic-transparent-glass-smart-mobile-phone-dark-background-cyber-security-data-protection-business-privacy-technology-concept-1024x566.jpg",
+        
+        },
+        {
+            id : 52,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "Amazon to launch online shopping service in South Africa from 2024",
+            desc : "Amazon has announced its plans to launch its online shopping service in South Africa, making it the second African country, after Egypt, where the U.S. e-commerce giant will operate. Amazon, in its statement, revealed that the introduction of ‘Amazon.co.za’ in 2024 aims to provide independent sellers across the country with an opportunity to quickly establish, expand, and grow their businesses.While South Africa is often seen as a gateway for companies looking to expand into the continent, analysts predict that the launch may not significantly disrupt the local industry or be a game-changer for Amazon due to existing challenges such as weak economic growth, high unemployment, and infrastructure issues. But it will surely intensify competition. Takealot, a major player in the South African online retail market, has expressed confidence in competing with Amazon, given its extensive delivery network and prevailing local appeal.Meanwhile, the configuration of Amazon’s platform in compliance with local competition regulations, which require the separation of retail operations from marketplace activities, is yet to be determined. Nevertheless, sellers can now register to sell on the platform.",
+            img : "https://diplo-media.s3.eu-central-1.amazonaws.com/2023/09/Amazon-and-Anthropic.png",
+        
+        },
+        {
+            id : 53,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "ESMA urges preparations for smooth transition to MiCA regulation.",
+            desc : "The European Securities and Markets Authority (ESMA), the financial markets regulator and supervisor of the EU, has issued a letter and a statement urging preparations for a seamless transition to the Markets in Crypto-assets Regulation (MiCA).In the letter addressed to the Economic and Financial Affairs Council (ECOFIN), Verena Ross, ESMA Chair, emphasises the need for Member States to promptly designate the competent authorities responsible for implementing the functions and duties outlined in the EU regulation. This is crucial to ensuring effective regulation and supervision of the crypto-asset market.Furthermore, ESMA has released a statement addressing entities that provide crypto-asset services and the national competent authorities that will be responsible for their supervision. The statement sets out the expectations for both parties during the transitional period of MiCA. The EU’s financial watchdog urges the competent authorities to allocate resources and align their supervisory practices with those of their EU counterparts, in order to establish effective supervision from the start.Market participants are strongly encouraged to initiate preparations for a smooth transition and ensure that their clients are informed about the regulatory status of their crypto-asset offerings. ESMA also emphasises the importance of market participants understanding the implications of the “grandfathered” status of their offerings and informing consumers about the risks associated with holding or investing in crypto-assets. This reminder aims to protect consumers and ensure they make informed decisions during the transitional period. Why does it matter? By taking these measures, ESMA aims to establish effective regulation and supervision of the crypto-asset market, safeguarding both market participants and consumers. The initiative reflects ESMA’s commitment to creating a well-regulated market for crypto-assets within the European Union.",
+            img : "https://diplo-media.s3.eu-central-1.amazonaws.com/2023/10/EU-ESMA-Logo.jpg",
+        
+        },
+        {
+            id : 54,
+            cat : 'technology',
+            clap : "12k",
+            date : "14-10-23",
+            title : "Basel committee proposes full disclosure of banks’ cryptocurrency holdings",
+            desc : "According to recently proposed plans of the Basel Committee on Banking Supervision, which establishes standards for traditional finance institutions, banks will be required to fully disclose their cryptocurrency holdings. This move comes as international regulators attribute some banking collapses to the rapid rise in the popularity of cryptocurrencies.The Committee had previously recommended that banks should allocate sufficient capital to account for their holdings of unsupported cryptocurrencies like bitcoin (BTC) or ether (ETH). The new disclosure obligations for banks’ crypto-asset exposure will complement the existing capital requirements for digital assets.In a report released on Thursday, the Committee outlined its perspective on what it referred to as the ‘most noteworthy system-wide banking stress’ since the 2008 financial crisis, with cryptocurrency being targeted. The surge in popularity of cryptocurrency was identified as one of three underlying trends indirectly contributing to the financial disruption in traditional finance that occurred in March, along with the expansion of non-bank financial intermediation and the emergence of faster digital payment systems enabling rapid depositor withdrawals.About the Basel Committee on Banking Supervision. The Basel Committee on Banking Supervision is an international committee of banking supervisory authorities established by the central bank governors of the Group of Ten countries in 1974. Its objective is to enhance understanding of key supervisory issues and improve the quality of banking supervision worldwide. The committee frames guidelines and standards in different areas – some of the better known among them are the international standards on capital adequacy, the Core Principles for Effective Banking Supervision and the Concordat on cross-border banking supervision. The committee is made up of central banks and other banking regulatory authorities from 28 jurisdictions and has 45 members.",
+            img : "https://diplo-media.s3.eu-central-1.amazonaws.com/2023/09/bitcoins-ladder-chart-cryptocurrency-concept-1024x683.jpg",
+        
+        },
+        {
+            id : 55,
+            cat : 'hollywood',
+            clap : "12k",
+            date : "14-10-23",
+            title : "Sam Altman’s crypto venture Worldcoin facing ban in Kenya over legal and safety issues",
+            desc : "A Kenyan parliamentary panel has recommended the shutdown of Worldcoin in the country due to concerns about the ‘authenticity and legality’ of its operations in the digital identity, financial services, and data security domains. An ad hoc committee of 18 legislators was set up in August to scrutinise the activities of Worldcoin, Sam Altman’s crypto venture. The lawmakers called on Kenya’s ICT regulator, the Communication Authority, to ban Worldcoin’s physical and virtual presence, including blocking the IP addresses of related websites, until relevant rules on digital assets are in place in the country. The panel also urged the government to immediately take action and launch criminal probes into ‘Tools for Humanity Corp’, a company co-founded by OpenAI CEO Sam Altman to produce Worldcoin, and its Kenyan partners, including Sense Marketing. The report should be presented and discussed soon at the Kenyan National Assembly.Why does it matter? The lawmaker’s report highlights several pending issues with digital identity and data privacy in the crypto industry. The recommendations come as Kenya ordered Worldcoin to stop all registration in the country in early August as a result of complaints about Worldcoin’s biometric scan of users’ iris in exchange for a digital ID linked to a new ‘identity and financial network’. In total disregard for the government’s order, Worldcoin kept on collecting Kenya’s residents’ personal data virtually, with no age verification process. In addition to the shutdown of the operation, the recommendations include: ‘implementing a comprehensive framework for digital assets and virtual asset service providers; amending existing regulations to consider cybercrimes and tax reporting requirements; and providing a requirement for full disclosure on how companies will utilize and store personal and sensitive data collected in Kenya.’ Worldcoin has also come under the radar of British, German, and French regulators. A shutdown would restrict Worldcoin’s development plans and could impact its reputation, set a precedent, and inspire other countries to follow Kenya’s legislative action.",
+            img : "https://diplo-media.s3.eu-central-1.amazonaws.com/2023/07/world-ID.jpg",
         }
     ])
     return (

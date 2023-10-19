@@ -1,9 +1,10 @@
 import { useContext } from "react";
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import { bucket } from "../Store/StoreCompo";
 
 
 export default function ReadCompo(){
+    const nav = useNavigate()
     const readData = useParams();
     const data = useContext(bucket)
 
@@ -12,16 +13,17 @@ export default function ReadCompo(){
     })
     console.log(filterData);
     return(
-        <div className="readData">
-            <img src={filterData[0].img} alt='not found' />
-            <h1>{filterData[0].title}</h1>
-            <p>{filterData[0].desc}</p>
-            {filterData[0].id}
-            {filterData[0].cat}
-            <p>
-                {filterData[0].clap}
-                {filterData[0].date}
-            </p>
+        <>
+        <div className="readBlog">
+            <h1 className="readTitle">{filterData[0].title}</h1>
+            <img className="readImg" src={filterData[0].img} alt='not found' />
+            <p className="readDesc">{filterData[0].desc}</p>
+                <div className="readDataFooter">
+                    <div>{filterData[0].date}</div>
+                    <div>{filterData[0].clap}</div>
+                </div>
         </div>
+            <button className="readBtn" onClick={()=>nav(-1)}>Back</button>
+        </>
     )
 }
