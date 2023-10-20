@@ -61,7 +61,8 @@ export default function Fitness() {
             .map(dataFun3)
           }
           <div className='addvert'>
-            <h1>Advertisement</h1>
+            {/* <h1>Advertisement</h1> */}
+            <img className='fitAdd' src='https://images.unsplash.com/photo-1622550874989-b774e4767dd0?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGFkdmVydGlzZW1lbnR8ZW58MHx8MHx8fDA%3D'></img>
           </div>
         </div>
       </div>
