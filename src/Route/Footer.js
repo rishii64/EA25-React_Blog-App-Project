@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from './logo.jpeg'
-import { BrowserRouter, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -34,10 +34,10 @@ export default function Footer() {
 
         <div className='social'>
           <h3>Follow Us</h3>
-          <span><a className='footerLink' href=''>Facebook</a></span>
-          <span><a className='footerLink' href=''>Instagram</a></span>
-          <span><a className='footerLink' href=''>LinkedIn</a></span>
-          <span><a className='footerLink' href=''>Twitter</a></span>
+          <span><a className='footerLink' href='https://www.facebook.com/'>Facebook</a></span>
+          <span><a className='footerLink' href='https://www.instagram.com'>Instagram</a></span>
+          <span><a className='footerLink' href='https://www.linkedin.com'>LinkedIn</a></span>
+          <span><a className='footerLink' href='https://www.twitter.com'>Twitter</a></span>
         </div>
     </div>
   )
