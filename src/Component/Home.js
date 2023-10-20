@@ -3,7 +3,6 @@ import tech from './tech.jpg'
 // import food from './food.jpg'
 import fit from './fit.jpg'
 import jujutsu from './jujutsu.webp'
-import StoreCompo from '../Store/StoreCompo'
 
 import { bucket } from '../Store/StoreCompo';
 import { Link } from 'react-router-dom';
@@ -12,7 +11,6 @@ import { Link } from 'react-router-dom';
 export default function Home() {
 
   let blogData = useContext(bucket)
-  // console.log(blogData[0][2].img);
   return (
     <>
       <div className='images'>
@@ -113,7 +111,7 @@ export default function Home() {
               <div className='info home'>
                 <h3><Link to={`/Blog/${blogData[0][36].id}`}>{blogData[0][36].title}</Link></h3>
                 <p className='des'>{blogData[0][36].desc.slice(0,120)}....</p>
-                <p className='ref'>Texhnology : 17-10-23</p>
+                <p className='ref'>Technology : 17-10-23</p>
               </div>
           </div>
       </div>
