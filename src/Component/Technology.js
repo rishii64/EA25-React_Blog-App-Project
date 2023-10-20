@@ -62,7 +62,7 @@ export default function Technology() {
           }
           <div className='addvert'>
             {/* <h1>Advertisement</h1> */}
-            <img className='techAdd' src='https://images.unsplash.com/photo-1584445743187-cd8ba040349a?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFkdmVydGlzZW1lbnR8ZW58MHx8MHx8fDA%3D'></img>
+            <img className='techAdd' src='https://images.unsplash.com/photo-1584445743187-cd8ba040349a?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFkdmVydGlzZW1lbnR8ZW58MHx8MHx8fDA%3D' alt='not found'></img>
           </div>
         </div>
       </div>
