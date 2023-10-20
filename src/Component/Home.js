@@ -3,6 +3,7 @@ import tech from './tech.jpg'
 // import food from './food.jpg'
 import fit from './fit.jpg'
 import jujutsu from './jujutsu.webp'
+import add from './add.png'
 
 import { bucket } from '../Store/StoreCompo';
 import { Link } from 'react-router-dom';
@@ -52,6 +53,7 @@ export default function Home() {
 
       <h2 className='latestHead'>Latest Articles</h2>
       <div className='latestArticles'>
+        <div>
           <div className='left section2'>
               <img className='homeArticles' src={blogData[0][5].img} alt='not found' />
               <div className='info articles'>
@@ -83,6 +85,11 @@ export default function Home() {
                 <p className='des'>{blogData[0][33].desc.slice(0,350)}....</p>
                 <p className='ref'>Hollywood : 17-10-23</p>
               </div>
+          </div>
+        </div>
+          <div className='mainHome'>
+            {/* <h1>Advertisement</h1> */}
+            <img className='add' src={add} alt='not found'></img>
           </div>
       </div>
 
