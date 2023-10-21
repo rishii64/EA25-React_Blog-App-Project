@@ -7,12 +7,12 @@ export default function Technology() {
   let dataFun1 = (item, index) => {
     if (index < 6) {
       return (
-          <div  key={index} className='left'>
-              <img src={item.img} alt='not found' />
+          <div key={index} className='left'>
+              <img className='homeArticles' src={item.img} alt='not found' />
               <div className='info'>
-                <h3><Link to={`/Blog/${item.id}`}>{item.title.slice(0,80)}....</Link></h3>
+                <h3 className='lHead'><Link to={`/Blog/${item.id}`}>{item.title.slice(0,80)}....</Link></h3>
                 <p className='des'>{item.desc.slice(0,250)}....</p>
-                <p className='ref'>Technology: 17-10-23</p>
+                <p className='ref'>Technology : 17-10-23</p>
               </div>
           </div>
       )
@@ -24,8 +24,8 @@ export default function Technology() {
           <div key={index} className='topPost'>
               <img id='topPost' src={item.img} alt='not found' />
               <div className='info'>
-                <h3><Link to={`/Blog/${item.id}`}>{item.title}</Link></h3>
-                <p className='ref'>Technology: 17-10-23</p>
+                <h3 className='lHead'><Link to={`/Blog/${item.id}`}>{item.title}</Link></h3>
+                <p className='ref'>Technology : 17-10-23</p>
               </div>
           </div>
       )
@@ -38,7 +38,7 @@ export default function Technology() {
                 <img id='rightImg' src={item.img} alt='not found' />
                 <div className='info'>
                   <h3 className='r8Head'><Link to={`/Blog/${item.id}`}>{item.title}</Link></h3>
-                  <p className='ref'>Technology: 17-10-23</p>
+                  <p className='ref'>Technology : 17-10-23</p>
                 </div>
           </div>
       )

@@ -4,7 +4,6 @@ import tech from './tech.jpg'
 import fit from './fit.jpg'
 import jujutsu from './jujutsu.webp'
 import add from './add.png'
-
 import { bucket } from '../Store/StoreCompo';
 import { Link } from 'react-router-dom';
 
@@ -16,11 +15,8 @@ export default function Home() {
     <>
       <div className='images'>
         <img className='img1' src={jujutsu} alt='not found' />
-        <div className='divImg'>
           <img className='img2' src={tech} alt='not found'/>
-          {/* <img  src={food} alt='not found' /> */}
           <img className='img3' src={fit} alt='not found' />
-        </div>
       </div>
 
       <h2 className='latestHead'>The Latest</h2>
