@@ -65,8 +65,7 @@ export default function ReadCompo() {
                 {
                     data[0].map((item, index)=>{
                         if(item.cat === filterData[0].cat && item.id!== filterData[0].id && item.id<count){
-                            return (
-                            <div key={index} className='left'>
+                            return <div key={index} className='left'>
                             <img className='homeArticles' src={item.img} alt='not found' />
                             <div className='info'>
                               <h3><Link to={`/Blog/${item.id}`}>{item.title.slice(0,80)}....</Link></h3>
@@ -74,7 +73,9 @@ export default function ReadCompo() {
                               <p className='ref'>Bollywood : 17-10-23</p>
                             </div>
                             </div>
-                            )
+                        }
+                        else{
+                            return null
                         }
                     })
                 }
