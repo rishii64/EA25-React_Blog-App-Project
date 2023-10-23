@@ -95,7 +95,7 @@ img {
   margin: auto;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   /* border: 1px solid red; */
 }
 .home{
@@ -103,12 +103,14 @@ img {
 }
 .homeLatest{
   width: 100%;
-  height: 250px;
+  height: 50%;
+  /* height: 250px; */
   /* border: 1px solid; */
 }
 .section1{
   /* border: 1px solid green; */
   width: 29vw;
+  height: 400px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -116,6 +118,7 @@ img {
   width: 90%;
   margin: auto;
   display: flex;
+  gap: 100px;
   justify-content: space-between;
 }
 .section2{
@@ -124,31 +127,38 @@ img {
   /* margin-left: 5vw; */
   /* border: 1px solid ; */
 }
-.mainHome{
-  /* border: 1px solid green; */
-  /* width: 35vw; */
+/* .mainHome{
+  border: 1px solid green;
+  width: 35vw;
   width: 34vw;
   height: 540px;
-}
+} */
 .add{
   width: 100%;
   height: 100%;
 }
-.homeLeft{
-  border: 1px solid green;
-  width: 450px;
+/* .homePageLeft{
+  border: 1px solid rgb(0, 255, 13);
+} */
+
+.homeRight{
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   gap: 10px;
-}
-.topImg{
-  height: 200px;
+  margin-top: 50px;
+  /* border: 2px solid black; */
 }
 .homePost{
-  width: 34vw;
-  height: 50vh;
+  /* border: 1px solid red; */
+  width: 100%;  
+  height: 280px;
 }
+.mainTopPost{
+  margin: 0;
+}
+/* .topImg{
+  height: 100%;
+} */
 
 
 h2 {
@@ -175,6 +185,7 @@ p {
 }
 
 .left {
+  /* height: 200px; */
   display: flex;
   flex-direction: row;
   /* border: 1px solid red; */
@@ -418,6 +429,7 @@ h3 a:hover:after {
     font-size: 20px;
   }
   .latestArticles{
+    gap: 0;
     flex-direction: column;
   }
 

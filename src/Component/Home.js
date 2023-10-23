@@ -50,7 +50,7 @@ export default function Home() {
       {/* <div className='homeTopPost'></div> */}
       <div className='latestArticles'>
         <div className='homePageLeft'>
-        <h2 className='latestHead'>The Latest Blog</h2>
+        <h2 className='latestHead'>The Latest Articles</h2>
           <div className='left section2'>
               <img className='homeArticles' src={blogData[0][5].img} alt='not found' />
               <div className='info articles'>
@@ -86,19 +86,19 @@ export default function Home() {
         </div>
 
         <div className='homePageRight'>
-            <h2 className='latestHead mainTopPost'>Top Post</h2>
             <div className='homeRight'>
-                <div className='homePost left section1'>
-                    <img className='homeLatest topImg' src={blogData[0][22].img} alt='not found' />
-                    <div className='info home'>
-                      <h3><Link to={`/Blog/${blogData[0][22].id}`}>{blogData[0][22].title}</Link></h3>
-                      <p className='des'>{blogData[0][22].desc.slice(0,150)}....</p>
-                      <p className='ref'>Bollywood : 17-10-23</p>
-                    </div>
-                </div>
-                <div className='mainHome'>
+                {/* <div className='mainHome'> */}
                   {/* <h1>Advertisement</h1> */}
                   <img className='add' src={add} alt='not found'></img>
+                {/* </div> */}
+                <h2 className='latestHead mainTopPost'>Top Post</h2>
+                <div className='homePost left section1'>
+                    <img className='homeLatest topImg' src={blogData[0][12].img} alt='not found' />
+                    <div className='info home'>
+                      <h3><Link to={`/Blog/${blogData[0][12].id}`}>{blogData[0][12].title}</Link></h3>
+                      {/* <p className='des'>{blogData[0][22].desc.slice(0,150)}....</p> */}
+                      <p className='ref'>Bollywood : 17-10-23</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -106,8 +106,6 @@ export default function Home() {
       </div>
 
       <h2 className='latestHead'>Latest Stories</h2>
-      <div className='latestStories'>
-      </div>
       <div className='theLatest'>
           <div className='left section1'>
               <img className='homeLatest' src={blogData[0][12].img} alt='not found' />

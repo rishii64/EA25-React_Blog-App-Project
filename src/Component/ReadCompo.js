@@ -7,12 +7,12 @@ export default function ReadCompo() {
     const nav = useNavigate()
     const readData = useParams();
     const data = useContext(bucket)
-    const count = 5
-    // console.log(data);
+    let count = 0
 
     let filterData = data[0].filter((e, index) => {
         return e.id === Number(readData.id)
     })
+    console.log(readData);
     // console.log(filterData);
     return (
         <>
@@ -64,7 +64,8 @@ export default function ReadCompo() {
             <div className="readMore">
                 {
                     data[0].map((item, index)=>{
-                        if(item.cat === filterData[0].cat && item.id!== filterData[0].id && item.id<count){
+                        if(item.cat === filterData[0].cat && item.id!== filterData[0].id && count<5){
+                            count++
                             return <div key={index} className='left section1'>
                             <img className='homeLatest' src={item.img} alt='not found' />
                             <div className='info home'>
