@@ -115,25 +115,41 @@ img {
 .latestArticles{
   width: 90%;
   margin: auto;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
 }
 .section2{
   width: 50vw;
-  min-height: 32vh;
+  /* min-height: 32vh; */
   /* margin-left: 5vw; */
   /* border: 1px solid ; */
 }
 .mainHome{
   /* border: 1px solid green; */
   /* width: 35vw; */
-  height: 500px;
+  width: 34vw;
+  height: 540px;
 }
 .add{
   width: 100%;
   height: 100%;
 }
+.homeLeft{
+  border: 1px solid green;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.topImg{
+  height: 200px;
+}
+.homePost{
+  width: 34vw;
+  height: 50vh;
+}
+
 
 h2 {
   text-align: left;
@@ -234,7 +250,7 @@ h3 a:hover:after {
 }
 
 .r8Head {
-  font-size: 16px;
+  font-size: 12.5px;
 }
 
 .addvert {
@@ -335,6 +351,10 @@ h3 a:hover:after {
 .readMore{
   /* border: 1px solid red; */
   padding: 0 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer {
@@ -397,6 +417,10 @@ h3 a:hover:after {
   .latestHead{
     font-size: 20px;
   }
+  .latestArticles{
+    flex-direction: column;
+  }
+
   .theLatest{
     flex-direction: column;
   }
@@ -466,7 +490,4 @@ h3 a:hover:after {
   .ref{
     font-size: .8em;
   }
-  /* h3{
-    outline: auto;
-  } */
 }

@@ -11,7 +11,7 @@ export default function Fitness() {
               <img className='homeArticles' src={item.img} alt='not found' />
               <div className='info'>
                 <h3 className='lHead'><Link to={`/Blog/${item.id}`}>{item.title.slice(0,80)}....</Link></h3>
-                <p className='des'>{item.desc.slice(0,250)}....</p>
+                <p className='des'>{item.desc.slice(0,180)}....</p>
                 <p className='ref'>Fitness : 17-10-23</p>
               </div>
           </div>
