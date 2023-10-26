@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Hollywood() {
   const [data] = useContext(bucket)
   let dataFun1 = (item, index) => {
-    if (index < 6) {
+    if (index < 7) {
       return (
           <div key={index} className='left'>
               <img className='homeArticles' src={item.img} alt='not found' />
@@ -19,7 +19,7 @@ export default function Hollywood() {
     }
   }
   let dataFun2 = (item, index) => {
-    if (index === 6) {
+    if (index === 7) {
       return (
           <div key={index} className='topPost'>
               <img id='topPost' src={item.img} alt='not found' />
@@ -32,7 +32,7 @@ export default function Hollywood() {
     }
   }
   let dataFun3 = (item, index) => {
-    if (index > 6) {
+    if (index > 7) {
       return (
           <div  key={index} className='right'>
                 <img id='rightImg' src={item.img} alt='not found' />

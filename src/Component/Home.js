@@ -50,7 +50,7 @@ export default function Home() {
       {/* <div className='homeTopPost'></div> */}
       <div className='latestArticles'>
         <div className='homePageLeft'>
-        <h2 className='latestHead'>The Latest Articles</h2>
+        <h2 className='latestHead mainTopPost'>The Latest Articles</h2>
           <div className='left section2'>
               <img className='homeArticles' src={blogData[0][5].img} alt='not found' />
               <div className='info articles'>
@@ -87,10 +87,7 @@ export default function Home() {
 
         <div className='homePageRight'>
             <div className='homeRight'>
-                {/* <div className='mainHome'> */}
-                  {/* <h1>Advertisement</h1> */}
                   <img className='add' src={add} alt='not found'></img>
-                {/* </div> */}
                 <h2 className='latestHead mainTopPost'>Top Post</h2>
                 <div className='homePost left section1'>
                     <img className='homeLatest topImg' src={blogData[0][12].img} alt='not found' />
@@ -102,7 +99,6 @@ export default function Home() {
                 </div>
             </div>
         </div>
-
       </div>
 
       <h2 className='latestHead'>Latest Stories</h2>
