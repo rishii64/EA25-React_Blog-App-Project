@@ -49,7 +49,6 @@ export default function ReadCompo() {
                 </div>
 
             </div>
-
             <div className="share">
                 <div>
                     <i className="fa-solid fa-hands-clapping"></i> {filterData[0].clap}
@@ -66,7 +65,7 @@ export default function ReadCompo() {
                     data[0].map((item, index)=>{
                         if(item.cat === filterData[0].cat && item.id!== filterData[0].id && count<5){
                             count++
-                            return <div key={index} className='left section1'>
+                            return <div key={index} className='left section1 readArticles'>
                             <img className='homeLatest' src={item.img} alt='not found' />
                             <div className='info home'>
                               <h3><Link to={`/Blog/${item.id}`}>{item.title.slice(0,80)}....</Link></h3>

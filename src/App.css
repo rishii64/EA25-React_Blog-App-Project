@@ -85,10 +85,10 @@ img {
   height: 200px;
 }
 
-.img3 {
+/* .img3 {
   width: 38%;
   height: 200px;
-}
+} */
 
 .latestHead {
   margin: 5vh 0 0 5vw;
@@ -198,6 +198,7 @@ p {
   display: flex;
   flex-direction: row;
   /* border: 1px solid red; */
+  
   gap: 10px;
   text-align: justify;
   margin-top: 10px;
@@ -327,6 +328,9 @@ h3 a:hover:after {
   gap: 5px;
   width: 120px;
 }
+.readArticles{
+  background-color: beige;
+}
 
 .readBlogLogo {
   display: flex;
@@ -375,7 +379,7 @@ h3 a:hover:after {
   height: 80px;
   position: fixed;
   top: 50vh;
-  left: 150px;
+  left: 10vw;
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -486,7 +490,7 @@ h3 a:hover:after {
     margin-right: 5vw;
     width: 100%;
     height: 253px;
-    background-color: rgba(228, 228, 228, 0.828);
+    background-color: rgb(135, 243, 255);
     position: absolute;
     z-index: 3;
   }
