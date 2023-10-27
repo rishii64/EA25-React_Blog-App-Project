@@ -20,12 +20,13 @@ h1 {
 }
 
 a {
-  padding: 5px 50px;
+  /* padding: 5px 40px; */
+  /* display: flex; */
+  /* border: 1px solid red; */
   text-decoration: none;
   color: black;
   display: inline-block;
   position: relative;
-  color: #000000;
 }
 
 a:after {
@@ -72,49 +73,58 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 .img1 {
-   width: 55vw;
-   height: 64.5vh;
+  width: 55vw;
+  height: 64.5vh;
 }
 
-.img2,.img3{
-  width: 38%;
-  height: 200px;
-}
-.img3{
+.img2,
+.img3 {
   width: 38%;
   height: 200px;
 }
 
-.latestHead{
+.img3 {
+  width: 38%;
+  height: 200px;
+}
+
+.latestHead {
   margin: 5vh 0 0 5vw;
   font-size: 30px;
 }
-.theLatest{
+
+.theLatest {
   width: 90%;
+  /* height: 410px; */
   margin: auto;
   display: flex;
   justify-content: center;
   gap: 20px;
   /* border: 1px solid red; */
 }
-.home{
+
+.home {
   min-height: 170px;
 }
-.homeLatest{
+
+.homeLatest {
   width: 100%;
   height: 50%;
   /* height: 250px; */
   /* border: 1px solid; */
 }
-.section1{
+
+.section1 {
   /* border: 1px solid green; */
   width: 29vw;
   height: 400px;
   display: flex;
   flex-wrap: wrap;
 }
-.latestArticles{
+
+.latestArticles {
   width: 90%;
   height: 920px;
   margin: auto;
@@ -122,34 +132,39 @@ img {
   gap: 100px;
   justify-content: space-between;
 }
-.section2{
+
+.section2 {
   width: 50vw;
 }
 
-.add{
+.add {
   width: 100%;
   height: 500px;
 }
-.homePageLeft{
+
+.homePageLeft {
   /* border: 1px solid rgb(0, 255, 13); */
   margin-top: 30px;
 }
 
-.homeRight{
+.homeRight {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-top: 50px;
   /* border: 2px solid black; */
 }
-.homePost{
+
+.homePost {
   /* border: 1px solid red; */
-  width: 100%;  
+  width: 100%;
   height: 280px;
 }
-.mainTopPost{
+
+.mainTopPost {
   margin: 0;
 }
+
 /* .topImg{
   height: 100%;
 } */
@@ -285,15 +300,18 @@ h3 a:hover:after {
   padding: 25px;
   text-align: justify;
 }
-.readReporter{
+
+.readReporter {
   margin-bottom: 20px;
 }
-.readLine{
+
+.readLine {
   width: 91%;
   height: 1px;
   background-color: black;
 }
-.readBlogUserdata{
+
+.readBlogUserdata {
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
@@ -301,23 +319,29 @@ h3 a:hover:after {
   padding: 5px 30px;
   /* margin-bottom: 20px; */
 }
-.readBlogUser{
+
+.readBlogUser {
   /* border: 1px solid green; */
   display: flex;
   align-items: center;
   gap: 5px;
   width: 120px;
 }
-.readBlogLogo{
+
+.readBlogLogo {
   display: flex;
   gap: 10px;
 }
-.fa-user{
+
+.fa-user {
   font-size: 36px;
 }
-.fa-brands,.fa-hands-clapping{
+
+.fa-brands,
+.fa-hands-clapping {
   font-size: 20px;
 }
+
 .readDesc {
   text-align: justify;
   /* border: 1px solid; */
@@ -342,10 +366,12 @@ h3 a:hover:after {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.share,.readBtn:hover {
+.share,
+.readBtn:hover {
   cursor: pointer;
 }
-.share{
+
+.share {
   height: 80px;
   position: fixed;
   top: 50vh;
@@ -355,7 +381,8 @@ h3 a:hover:after {
   flex-direction: column;
   gap: 10px;
 }
-.readMore{
+
+.readMore {
   /* border: 1px solid red; */
   padding: 0 10px;
   display: flex;
@@ -391,7 +418,10 @@ h3 a:hover:after {
   text-decoration: underline;
 }
 
-.routes,.add1,.add2,.social {
+.routes,
+.add1,
+.add2,
+.social {
   display: flex;
   flex-direction: column;
 }
@@ -399,103 +429,202 @@ h3 a:hover:after {
 .routes {
   font-weight: 700;
 }
-.footer,.routes,.add1,.add2,.social{
+
+.footer,
+.routes,
+.add1,
+.add2,
+.social {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
 }
 
-.bollyAdd,.techAdd,.foodAdd,.hollyAdd,.fitAdd{
+.bollyAdd,
+.techAdd,
+.foodAdd,
+.hollyAdd,
+.fitAdd {
   width: 100%;
   height: 500px;
 }
 
-@media screen and (max-width:450px){
-  .images{
+#navBtn{
+  display: none;
+}
+.nav {
+  /* border: 1px solid red; */
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.links {
+  /* border: 1px solid rgb(51, 0, 255); */
+  /* width: 10vw; */
+  font-size: calc(9px + 1vh);
+  text-align: center;
+  font-weight: 500;
+  /* position: relative;
+  right: -200px; */
+}
+@media screen and (max-width:450px) {
+  .hide{
+    display: none;
+  }
+  #navBtn{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    width: 30px;
+    height: 30px;
+  }
+  .nav{
+    flex-direction: column;
+    margin-right: 5vw;
+    width: 100%;
+    height: 253px;
+    background-color: rgba(228, 228, 228, 0.828);
+    position: absolute;
+    z-index: 3;
+  }
+  h2 .links a{
+    display: flex;
+    justify-content: right;
+  }
+  
+  .images {
     /* border: 1px solid red; */
     height: 300px;
   }
-  .img1{
+
+  .img1 {
     width: 100%;
   }
-  .img2,.img3,.addvert,.add,.bollyAdd,.techAdd,.foodAdd,.hollyAdd,.fitAdd,.share{
+
+  .homeRight,
+  .img2,
+  .img3,
+  .addvert,
+  .add,
+  .bollyAdd,
+  .techAdd,
+  .foodAdd,
+  .hollyAdd,
+  .fitAdd,
+  .share {
     display: none;
   }
-  .latestHead{
+
+  .latestHead {
     font-size: 20px;
   }
-  .latestArticles{
+
+  .latestArticles {
     gap: 0;
     flex-direction: column;
   }
 
-  .theLatest{
+  .theLatest {
     flex-direction: column;
   }
-  .section1,.section2{
+
+  .section1,
+  .section2 {
     width: 100%;
     height: 340px;
   }
-  .section2{
+
+  .section2 {
     height: 201px;
   }
 
-  .homeArticles{
+  .homeArticles {
     width: 40vw;
   }
-  .homeLatest{
+
+  .homeLatest {
     height: 220px;
   }
-  .main{
+
+  .main {
     flex-direction: column;
   }
-  .leftCont{
+
+  .leftCont {
     /* border: 1px solid red; */
     width: 100%;
   }
-  .topPost,.right{
+
+  .topPost,
+  .right {
     width: 90vw;
   }
-  .left{
+
+  .left {
     width: 100%;
+    gap: 0;
   }
-  .right{
+
+  h3 {
+    /* border: 1px solid red; */
+    height: 40px;
+  }
+
+  .des {
+    /* border: 1px solid; */
+    height: 40px;
+  }
+
+  .right {
     min-height: 135px;
   }
-  .lHead{
+
+  .lHead {
     font-size: 1.01em;
   }
-  .r8Head{
+
+  .r8Head {
     font-size: .7em;
   }
-  #topPost{
+
+  #topPost {
     width: 100%;
   }
-  #rightImg{
+
+  #rightImg {
     height: 100%;
   }
+
   /* .right{
     width: 90vw;
   } */
-  .readBlog{
+  .readBlog {
     width: 90%;
   }
-  .readTitle{
+
+  .readTitle {
     font-size: 1.5em;
   }
-  .readImg{
+
+  .readImg {
     width: 90%;
     height: 100%;
   }
-  .readDesc{
+
+  .readDesc {
     width: 90%;
     margin: auto;
     font-size: calc(9px + 1vh);
   }
-  .readBtn{
+
+  .readBtn {
     width: 80px;
   }
-  .ref{
+
+  .ref {
     font-size: .8em;
   }
 }

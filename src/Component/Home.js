@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import tech from './tech.jpg'
-// import food from './food.jpg'
 import fit from './fit.jpg'
 import jujutsu from './jujutsu.webp'
 import add from './add.png'
@@ -11,6 +10,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
 
   let blogData = useContext(bucket)
+  // console.log(blogData);
   return (
     <>
       <div className='images'>
@@ -47,7 +47,6 @@ export default function Home() {
           </div>
       </div>
 
-      {/* <div className='homeTopPost'></div> */}
       <div className='latestArticles'>
         <div className='homePageLeft'>
         <h2 className='latestHead mainTopPost'>The Latest Articles</h2>
@@ -85,20 +84,19 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='homePageRight'>
+        {/* <div className='homePageRight'> */}
             <div className='homeRight'>
                   <img className='add' src={add} alt='not found'></img>
                 <h2 className='latestHead mainTopPost'>Top Post</h2>
                 <div className='homePost left section1'>
-                    <img className='homeLatest topImg' src={blogData[0][12].img} alt='not found' />
+                    <img className='homeLatest topImg' src={blogData[0][44].img} alt='not found' />
                     <div className='info home'>
-                      <h3><Link to={`/Blog/${blogData[0][12].id}`}>{blogData[0][12].title}</Link></h3>
-                      {/* <p className='des'>{blogData[0][22].desc.slice(0,150)}....</p> */}
+                      <h3><Link to={`/Blog/${blogData[0][44].id}`}>{blogData[0][44].title}</Link></h3>
                       <p className='ref'>Bollywood : 17-10-23</p>
                     </div>
                 </div>
             </div>
-        </div>
+        {/* </div> */}
       </div>
 
       <h2 className='latestHead'>Latest Stories</h2>
@@ -124,7 +122,7 @@ export default function Home() {
               <div className='info home'>
                 <h3><Link to={`/Blog/${blogData[0][36].id}`}>{blogData[0][36].title}</Link></h3>
                 <p className='des'>{blogData[0][36].desc.slice(0,120)}....</p>
-                <p className='ref'>Technology : 17-10-23</p>
+                <p className='ref'>Hollywood : 17-10-23</p>
               </div>
           </div>
       </div>

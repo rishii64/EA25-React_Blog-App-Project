@@ -5,22 +5,24 @@ import Technology from '../Component/Technology'
 import Food from '../Component/Food'
 import Hollywood from '../Component/Hollywood'
 import Fitness from '../Component/Fitness'
-import { BrowserRouter,Link, Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import StoreCompo from '../Store/StoreCompo'
 import Footer from './Footer'
 import ReadCompo from '../Component/ReadCompo'
+import Navbar from './Navbar'
 
 export default function RouteCompo() {
   return (
     <div className='pages'>
       <h1 className='head'><p id='head'>The</p>  Siren</h1>
-      <BrowserRouter>
-        <Link to='/'>Home</Link>
+      <Navbar />
+      {/* <BrowserRouter> */}
+        {/* <Link to='/'>Home</Link>
         <Link to='/Bollywood'>Bollywood</Link>
         <Link to='/Technology'>Technology</Link>
         <Link to='/Food'>Food</Link>
         <Link to='Hollywood'>Hollywood</Link>
-        <Link to='/Fitness'>Fitness</Link>
+        <Link to='/Fitness'>Fitness</Link> */}
         <hr></hr>
         <StoreCompo>
           <Routes>
@@ -34,7 +36,7 @@ export default function RouteCompo() {
           </Routes>
         </StoreCompo>
         <Footer />
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   )
 }
